@@ -1,4 +1,4 @@
-version: 2.3
+version: 2
 jobs:
   one:
     docker:
@@ -37,7 +37,7 @@ jobs:
             echo "Nope!"; exit 1
           fi
 workflows:
-  version: 2.3
+  version: 2
   one_and_two_three:
     jobs:
       - one
